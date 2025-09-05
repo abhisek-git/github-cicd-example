@@ -47,4 +47,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/springboot-docker-mongo:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/github-cicd-actions:latest
